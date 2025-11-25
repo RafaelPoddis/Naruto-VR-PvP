@@ -5,10 +5,11 @@
 
 body {
     background-image: url("../Media/homeBG.jpg");
+    font-family: 'Ninja Naruto', sans-serif;
     padding: 0;
     margin: 0;
 
-    height: 150%;
+    height: 91vh;
 }
 
 header {
@@ -68,5 +69,88 @@ header {
 }
 
 main {
+    display: flex;
+    justify-content: center;
     padding-top: 4rem;
+    height: 100%;
+    padding-top: 8rem;
+}
+
+.loginDiv {
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #F18918;
+    border: 1px solid black;
+    border-radius: 1rem;
+
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 4rem;
+
+    width: 25%;
+    height: 50%;
+}
+
+.usernameLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    width: 50%;
+
+    font-size: small;
+}
+
+.passwordLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    margin-top: 1rem;
+    width: 50%;
+
+    font-size: small;
+}
+
+#login-btn {
+    font-family: 'Ninja Naruto', sans-serif;
+    width: 6rem;
+    height: 2rem;
+
+    color: #F18918;
+    border: 1px solid #F18918;
+    border-radius: 2rem;
+
+    background:none;
+}
+
+#login-btn:hover {
+    cursor: pointer;
+}
+
+.outros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: small;
+}
+
+.announcements {
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #F18918;
+    border: 1px solid black;
+    border-radius: 1rem;
+
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 4rem;
+
+    width: 50%;
+    height: 50%;
 }
