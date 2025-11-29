@@ -101,6 +101,8 @@ main {
     width: 50%;
 
     font-size: small;
+
+    margin-top: 4rem;
 }
 
 .passwordLogin {
