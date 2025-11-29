@@ -21,24 +21,47 @@
         </button>
     </header>
     <main>
-        <div class="loginDiv">
-            <h2>Login</h2>
-            <div class="usernameLogin">
-                <label for="username"><b>Username or E-mail</b></label>
-                <input type="text" placeholder="Enter your Username or E-mail" name="username" required>
+        <div id="homeScreen" class="homeScreen">
+            <div class="loginDiv">
+                <h2>Login</h2>
+                <div class="separator">
+                    <!-- Um linha de 1 pixel para separar as seções. Vide CSS -->
+                </div>
+                <div class="usernameLogin">
+                    <label for="username"><b>Username or E-mail</b></label>
+                    <input type="text" placeholder="Enter your Username or E-mail" name="username" required>
+                </div>
+                <div class="passwordLogin">
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter your password" name="password" required>
+                </div>
+    
+                <div class="outros">
+                    <button id="login-btn">Login</button>
+                    <p>Ainda nao possui uma conta?<br>Registrar</p>
+                </div>
             </div>
-            <div class="passwordLogin">
-                <label for="password"><b>Password</b></label>
-                <input type="password" placeholder="Enter your password" name="password" required>
-            </div>
-
-            <div class="outros">
-                <button id="login-btn">Login</button>
-                <p>Ainda nao possui uma conta?<br>Registrar</p>
+            <div class="announcements">
+                <h2>Avisos</h2>
+                <div class="separator">
+                    <!-- Um linha de 1 pixel para separar as seções. Vide CSS -->
+                </div>
             </div>
         </div>
-        <div class="announcements">
-            <h2>Avisos</h2>
+
+        <div id="creditsScreen" class="hidden">
+            <div class="content">
+                <h2>Creditos</h2>
+                <div class="separator">
+                    <!-- Um linha de 1 pixel para separar as seções. Vide CSS -->
+                </div>
+                <div class="info">
+                    <h3>Game Designer</h3>
+                    <p>Elisson Santos</p>
+                    <h3>Desenvolvedor</h3>
+                    <p>Rafael Poddis</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>
